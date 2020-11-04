@@ -1,0 +1,21 @@
+BACK END:
+pagina para cadastrar a empresa => cadastra unidades => cadastra os ativos => 
+imagem, nome, descrição, modelo, responsável, status(disponivel, em manutencao
+e desativado e nivel de saude;
+pagina para cadastrar usuario; 
+uma rota para ter visão geral de cada empresa pelo id da mesma.
+
+FRONT END:
+usuarios consultem a lista de todos os ativos daquela unidade, como também 
+componetes que mostrem a media do nivel de saude dos ativos;
+construir grafico na memsa pagina que informe quantos ativos estao nas 3 
+categorias principais: estavel(hs >= 80), em alerta (60 < hs < 80) e
+criticos (hs <= 60).
+
+PAGINAS: 
+empresas;
+unidades;
+ativos;
+nivel de saude;
+usuario;
+visão geral.
